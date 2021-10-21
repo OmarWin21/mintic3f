@@ -1,10 +1,9 @@
 import React from 'react';
+import SideBar from '../components/SideBar'
 
 const Home = () =>{
     return(
-        <div>
-            <h1>Tech Shop LOS CHACHOS</h1>
-        </div>
+        <SideBar />
     );
 }
 export default Home;
